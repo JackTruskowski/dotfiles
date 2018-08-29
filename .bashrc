@@ -6,4 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
+alias emacsn='emacs -nw $1'
+alias eclimd='bash /home/jack/eclipse/java-photon/eclipse/eclimd &'
+
 PS1='[\u@\h \W]\$ '
